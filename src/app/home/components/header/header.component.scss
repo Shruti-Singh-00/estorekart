@@ -1,0 +1,84 @@
+.header{
+    max-width: 100%;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.brand{
+    color: white;
+    margin-left: 2%;
+    padding: 0.8em;
+    width: 18%;
+}
+
+.search-box{
+    width: 75%;
+    height: 2.5em;
+    display: inline-block;
+    border: none;
+    background-color: white;
+}
+
+.search-button{
+    width: 10%;
+    height: 2.5em;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #dadada;
+}
+
+.dropdown{
+    width: 15%;
+    height: 2.5em;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #dadada;
+    font-weight: 600;
+}
+
+.login-container{
+    color: white;
+    width: 200px;
+    text-align: right;
+    margin-left: 70px;
+    margin-top: 1.6em;
+
+    h5{
+        display: inline-block;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.user-icon{
+    margin-right: 0.4em;
+    padding: 0.2em;
+    font-size: 1.3em;
+}
+
+.cart-wishlist{
+    width: 10px;
+    margin-top: 1.7em;
+    margin-right: 50px;
+
+    .list-item{                        /* CSS nesting Class */
+        color: white;
+        list-style-type: none;
+        display: inline-block;
+        font-size: 1.3em;
+        margin-right: 0.5em;
+    }
+}
+
+.back{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.right{
+    position: relative;
+    float: right;
+}
